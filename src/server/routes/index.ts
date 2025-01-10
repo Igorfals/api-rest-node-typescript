@@ -9,5 +9,5 @@ router.get('/', (req: Request, res: Response) => {
   res.send('Hello Word!');
 });
 
-router.post('/teste', CidadeController.create);
+router.post('/cidades', CidadeController.create);
 export { router }
